@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  width: 100%;
+  background-color: #FF9A4B;
+  height: 50px;
+}
+
+main{
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.card{
+  padding: 10px;
+  width: 300px;
+  background-color: #EEEEEE;
+  margin-right: 30px;
+  position: relative;
+}
+h3{
+  margin-top: 15px;
+}
+p{
+  margin-top:5px ;
+}
+
+.img1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.img3{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.img2{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: center;
+  background-size: cover;
+}
+
+footer{
+ width: 100%;
+ background-color: #AAAAAA;
+ height: 50px;
+}
+.steps{
+  color: white;
+  background-color: #FF9A4B;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1px;
+}
+@media(max-width:768px){
+  main{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card:nth-child(1){
+    margin-bottom:20px ;
+  }
+  .card:nth-child(3){
+    margin-top: 20px;
+  }
+  }
